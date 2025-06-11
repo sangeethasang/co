@@ -1,0 +1,161 @@
+/*step:1parentContainer*/
+.header{
+    background-color: #649db1;
+}
+/*Step2:component*/
+.team{
+    background-color: darkmagenta;
+}
+ /*Step3:componentContainer*/
+ .teamContainer{
+   background-color: darkslateblue;
+ }
+ /*step4:row*/
+ .teamBody{
+    background-color: cadetblue;
+ }
+ /*step5:column1*/
+ .teamBlock{
+   background-color: aquamarine;
+ }
+/*step6:subColumn*/
+.teamBox{
+   background-color: bisque;
+}
+/*step7:contentContainer*/
+.teamBoxFigure{
+   background-color: bisque;
+}
+.teamBoxFigure img{
+   background-color: bisque;
+}
+/*step4:row2*/
+.teamBody{
+  background-color: darkturquoise;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* column-gap: 1rem; */
+  /* row-gap: 1rem; */
+  gap: 1rem;
+  padding: 0rem 2rem;
+}
+/*step5:column1*/
+.rishiBlock{
+  background-color: aquamarine;
+}
+/*step6:subColumn1*/
+.teamcardBox{
+  background-color: bisque;
+  display: flex;
+  flex-direction: column; /* makes top to bottom align */
+  align-items: center; /* Behaves like a justify-content */
+  justify-content: center; /* Behaves like a align-items */
+  text-align: center;
+}
+/*step7:contentContainer*/
+.teamcardBoxFigure{
+   background-color: bisque;
+}
+.teamcardBoxFigure img{
+   background-color: bisque;
+}
+/*step5:column2*/
+.davidBlock{
+  background-color: aquamarine;
+}
+/*step6:subColumn2*/
+.teamcardBox{
+  background-color: bisque;
+  display: flex;
+  flex-direction: column; /* makes top to bottom align */
+  align-items: center; /* Behaves like a justify-content */
+  justify-content: center; /* Behaves like a align-items */
+  text-align: center;
+}
+/*step7:contentContainer*/
+.teamcardBoxFigure{
+   background-color: bisque;
+}
+.teamcardBoxFigure img{
+   background-color: bisque;
+}
+/*step5:column3*/
+.lucyBlock{
+  background-color: aquamarine;
+}
+/*step6:subColumn3*/
+.teamcardBox{
+  background-color: bisque;
+  display: flex;
+  flex-direction: column; /* makes top to bottom align */
+  align-items: center; /* Behaves like a justify-content */
+  justify-content: center; /* Behaves like a align-items */
+  text-align: center;
+}
+/*step7:contentContainer*/
+.teamcardBoxFigure{
+   background-color: bisque;
+}
+.teamcardBoxFigure img{
+   background-color: bisque;
+}
+/*step5:column4*/
+.jacoBlock{
+  background-color: aquamarine;
+}
+/*step6:subColumn4*/
+.teamcardBox{
+  background-color: bisque;
+  display: flex;
+  flex-direction: column; /* makes top to bottom align */
+  align-items: center; /* Behaves like a justify-content */
+  justify-content: center; /* Behaves like a align-items */
+  text-align: center;
+}
+/*step7:contentContainer*/
+.teamcardBoxFigure{
+   background-color: bisque;
+}
+.teamcardBoxFigure img{
+   background-color: bisque;
+}
+/*step5:column4*/
+.zaraBox{
+  background-color: aquamarine;
+}
+/*step6:subColumn4*/
+.teamcardBox{
+  background-color: bisque;
+  display: flex;
+  flex-direction: column; /* makes top to bottom align */
+  align-items: center; /* Behaves like a justify-content */
+  justify-content: center; /* Behaves like a align-items */
+  text-align: center;
+}
+/*step7:contentContainer*/
+.teamcardBoxFigure{
+   background-color: bisque;
+}
+.teamcardBoxFigure img{
+   background-color: bisque;
+}
+/*step5:column6*/
+.philipBlock{
+  background-color: aquamarine;
+}
+/*step6:subColumn6*/
+.teamBox{
+  background-color: bisque;
+  display: flex;
+  flex-direction: column; /* makes top to bottom align */
+  align-items: center; /* Behaves like a justify-content */
+  justify-content: center; /* Behaves like a align-items */
+  text-align: center;
+}
+/*step7:contentContainer*/
+.teamcardBoxFigure{
+   background-color: bisque;
+}
+.teamcardBoxFigure img{
+   background-color: bisque;
+}

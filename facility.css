@@ -1,0 +1,216 @@
+/*step1:parentContainer*/
+.header {
+    background-color: #649db1;
+}
+
+/*step2:component*/
+.facility {
+    background-color: darkmagenta;
+}
+
+/*step3:componentContainer*/
+.facilityContainer {
+    background-color: darkslateblue;
+}
+
+/*step4:row*/
+.facilityBody {
+    background-color: cadetblue;
+}
+
+/*step5:column*/
+.facilityBlock {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/*step6:subcolumn*/
+.facilityBox {
+    background-color: bisque;
+}
+
+/*step7:contentContainer*/
+.facilityBoxFigure {
+    background-color: azure;
+}
+
+.facilityBoxFigure img {
+    background-color: azure;
+}
+
+.facilityBox h2 {
+    background-color: azure;
+}
+
+/*step4:row2*/
+.ourVaritiesBody {
+    background-color: darkturquoise;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 0rem 2rem;
+}
+
+/*step5:column1*/
+.ourVaritiesBlock {
+    background-color: aquamarine;
+}
+
+/*step6:subcolumn2*/
+.cardBox {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/*step7:contentContainer*/
+.cardHeader {
+    background-color: azure;
+}
+
+.cardHeader figure {
+    background-color: azure;
+}
+
+.cardHeaderFigure img {
+    background-color: azure;
+}
+
+.cardMain {
+    background-color: darkgoldenrod;
+}
+
+.cardMain h3 {
+    background-color: darkgoldenrod;
+}
+
+.cardMain p {
+    background-color: darkgoldenrod;
+}
+
+/*step5:column2*/
+.beansBlock {
+    background-color: aquamarine;
+}
+
+/*step6:subcolumn2*/
+.beansBox {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/*step7:contentContainer*/
+.cardHeader {
+    background-color: azure;
+}
+
+.cardHeader figure {
+    background-color: azure;
+}
+
+.cardHeaderFigure img {
+    background-color: azure;
+}
+
+.cardMain {
+    background-color: darkgoldenrod;
+}
+
+.cardMain h3 {
+    background-color: darkgoldenrod;
+}
+
+.cardMain p {
+    background-color: darkgoldenrod;
+}
+
+/*step5:column3*/
+.sweetBlock {
+    background-color: aquamarine;
+}
+
+/*step6:subcolumn3*/
+.sweetBox {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/*step7:contentContainer*/
+.cardHeader {
+    background-color: azure;
+}
+
+.cardHeader figure {
+    background-color: azure;
+}
+
+.cardHeaderFigure img {
+    background-color: azure;
+}
+
+.cardMain {
+    background-color: darkgoldenrod;
+}
+
+.cardMain h3 {
+    background-color: darkgoldenrod;
+}
+
+.cardMain p {
+    background-color: darkgoldenrod;
+}
+
+/*step5:column4*/
+.loremBlock {
+    background-color: aquamarine;
+}
+
+/*step6:subcolumn4*/
+.loremBox {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/*step7:contentContainer*/
+.cardHeader {
+    background-color: azure;
+}
+
+.cardHeader figure {
+    background-color: azure;
+}
+
+.cardHeaderFigure img {
+    background-color: azure;
+}
+
+.cardMain {
+    background-color: darkgoldenrod;
+}
+
+.cardMain h3 {
+    background-color: darkgoldenrod;
+}
+
+.cardMain p {
+    background-color: darkgoldenrod;
+}

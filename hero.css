@@ -1,0 +1,37 @@
+/*step1:parentContainer*/
+.header{
+    background-color: #649db1;
+}
+/*step2:component*/
+.heroSection{
+    background-color: darkmagenta;
+}
+/*step3:componentContainer*/
+.heroSectionContainer{
+    background-color: darkslateblue;
+}
+/*step4:row*/
+.heroSectionBody{
+    background-color: cadetblue;
+}
+/*step5:column*/
+.heroSectionBlock{
+   background-color: aquamarine;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+/*step6:subColumn*/
+.heroSectionBox{
+    background-color: bisque;
+}
+/*step7:contentContainer*/
+.heroSectionBox h1{
+    background-color: azure;
+}
+.heroSectionBox p{
+    background-color: azure;
+}
+.heroSectionBox button{
+    background-color: azure;
+}

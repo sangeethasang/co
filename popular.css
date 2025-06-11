@@ -1,0 +1,161 @@
+/*step:1parentContainer*/
+.header{
+    background-color: #649db1;
+}
+/*Step2:component*/
+.popular{
+    background-color: darkmagenta;
+}
+ /*Step3:componentContainer*/
+ .popularContainer{
+   background-color: darkslateblue;
+ }
+ /*step4:row*/
+ .headingBody{
+    background-color: cadetblue;
+ }
+ /*step5:column1*/
+ .popularBlock{
+   background-color: aquamarine;
+ }
+/*step6:subColumn*/
+.popularBox{
+   background-color: bisque;
+}
+/*step7:contentContainer*/
+.popularBoxFigure{
+   background-color: bisque;
+}
+.popularBoxFigure img{
+   background-color: bisque;
+}
+/*step4:row2*/
+.popularBody{
+  background-color: darkturquoise;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* column-gap: 1rem; */
+  /* row-gap: 1rem; */
+  gap: 1rem;
+  padding: 0rem 2rem;
+}
+/*step5:column1*/
+.lovelock{
+  background-color: aquamarine;
+}
+/*step6:subColumn1*/
+.cardBox{
+  background-color: bisque;
+  display: flex;
+  flex-direction: column; /* makes top to bottom align */
+  align-items: center; /* Behaves like a justify-content */
+  justify-content: center; /* Behaves like a align-items */
+  text-align: center;
+}
+/*step7:contentContainer*/
+.cardBoxFigure{
+   background-color: bisque;
+}
+.cardBoxFigure img{
+   background-color: bisque;
+}
+/*step5:column2*/
+.cuppuccinoBlock{
+  background-color: aquamarine;
+}
+/*step6:subColumn2*/
+.cardBox{
+  background-color: bisque;
+  display: flex;
+  flex-direction: column; /* makes top to bottom align */
+  align-items: center; /* Behaves like a justify-content */
+  justify-content: center; /* Behaves like a align-items */
+  text-align: center;
+}
+/*step7:contentContainer*/
+.cardBoxFigure{
+   background-color: bisque;
+}
+.cardBoxFigure img{
+   background-color: bisque;
+}
+/*step5:column3*/
+.mochaBlock{
+  background-color: aquamarine;
+}
+/*step6:subColumn3*/
+.cardBox{
+  background-color: bisque;
+  display: flex;
+  flex-direction: column; /* makes top to bottom align */
+  align-items: center; /* Behaves like a justify-content */
+  justify-content: center; /* Behaves like a align-items */
+  text-align: center;
+}
+/*step7:contentContainer*/
+.cardBoxFigure{
+   background-color: bisque;
+}
+.cardBoxFigure img{
+   background-color: bisque;
+}
+/*step5:column3*/
+.frappuccinoBlock{
+  background-color: aquamarine;
+}
+/*step6:subColumn3*/
+.cardBox{
+  background-color: bisque;
+  display: flex;
+  flex-direction: column; /* makes top to bottom align */
+  align-items: center; /* Behaves like a justify-content */
+  justify-content: center; /* Behaves like a align-items */
+  text-align: center;
+}
+/*step7:contentContainer*/
+.cardBoxFigure{
+   background-color: bisque;
+}
+.cardBoxFigure img{
+   background-color: bisque;
+}
+/*step5:column3*/
+.blackBlock{
+  background-color: aquamarine;
+}
+/*step6:subColumn3*/
+.cardBox{
+  background-color: bisque;
+  display: flex;
+  flex-direction: column; /* makes top to bottom align */
+  align-items: center; /* Behaves like a justify-content */
+  justify-content: center; /* Behaves like a align-items */
+  text-align: center;
+}
+/*step7:contentContainer*/
+.cardBoxFigure{
+   background-color: bisque;
+}
+.cardBoxFigure img{
+   background-color: bisque;
+}
+/*step5:column3*/
+.heartBlock{
+  background-color: aquamarine;
+}
+/*step6:subColumn3*/
+.cardBox{
+  background-color: bisque;
+  display: flex;
+  flex-direction: column; /* makes top to bottom align */
+  align-items: center; /* Behaves like a justify-content */
+  justify-content: center; /* Behaves like a align-items */
+  text-align: center;
+}
+/*step7:contentContainer*/
+.cardBoxFigure{
+   background-color: bisque;
+}
+.cardBoxFigure img{
+   background-color: bisque;
+}

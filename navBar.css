@@ -1,0 +1,54 @@
+/*step1:parentContainer*/
+header{
+background-color: #649db1;
+}
+/*Step2:component*/
+.navBar{
+    background-color: darkmagenta;
+}
+ /*Step3:componentContainer*/
+ .navBarContainer{
+   background-color: darkslateblue;
+ }
+ /*step4:row*/
+ .navBarBody{
+    background-color: cadetblue;
+    display:grid;
+    grid-template-columns:1fr 1fr ;
+ }
+ /*step5:column1*/
+ .iconBlock{
+   background-color: aquamarine;
+ }
+/*step6:subColumn*/
+.iconBox{
+   background-color: bisque;
+}
+/*step7:contentContainer*/
+.iconBoxFigure{
+   background-color: bisque;
+}
+.iconBoxFigure img{
+   background-color: bisque;
+}
+/*step5:column2*/
+.textBlock{
+   background-color: aquamarine;
+}
+/*step6:subColumn*/
+.textBox{
+   background-color: bisque;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+/*step7::contentContainer*/
+.textBox ul{
+   background-color: azure;
+}
+.textBox ul li{
+   background-color: azure;
+}
+.textBox ul li a{
+   background-color: azure;
+}

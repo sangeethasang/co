@@ -1,0 +1,66 @@
+/*step1:parentContainer*/
+.header {
+    background-color: #649db1;
+}
+
+/*Step2:component*/
+.contact {
+    background-color: #00ffff;
+}
+
+/*step3:componentContainer*/
+.contactContainer {
+    background-color: #88b8cc;
+}
+
+/*step4:row*/
+.contactBody {
+    background-color: lightpink;
+    display: grid 2;
+    grid-template-columns: 1fr 1fr;
+}
+/*step5:column*/
+.contactBlock{
+   background-color: aquamarine;
+ }
+/*step6:subColumn*/
+.contactBox{
+   background-color: bisque;
+}
+/*step7:contentContainer*/
+.contactBoxFigure{
+   background-color: bisque;
+}
+.contactBoxFigure img{
+   background-color: bisque;
+}
+/*step4:row2*/
+.tableBody{
+  background-color: darkturquoise;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* column-gap: 1rem; */
+  /* row-gap: 1rem; */
+  gap: 1rem;
+  padding: 0rem 2rem;
+}
+/*step5:column1*/
+.tableBlock{
+  background-color: aquamarine;
+}
+/*step6:subColumn1*/
+.tableBox{
+  background-color: bisque;
+  display: flex;
+  flex-direction: column; /* makes top to bottom align */
+  align-items: center; /* Behaves like a justify-content */
+  justify-content: center; /* Behaves like a align-items */
+  text-align: center;
+}
+/*step7:contentContainer*/
+.tablecardBoxFigure{
+   background-color: bisque;
+}
+.tablecardBoxFigure img{
+   background-color: bisque;
+}
