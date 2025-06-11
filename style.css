@@ -155,6 +155,7 @@ a {
   margin: auto;
   /* Left and right Center */
 }
+
 .scardBox h3 {
   font-weight: 500;
   padding-bottom: 1rem;
@@ -222,6 +223,7 @@ a {
   justify-content: start;
   /* left & right Alignment */
 }
+
 /* project standard classes Ends */
 
 /* Default code Ends here */
@@ -308,13 +310,16 @@ footer {
   width: 50%;
   text-align: center;
 }
-.heroSection p{
+
+.heroSection p {
   padding-bottom: 2rem;
 }
-.heroSectionBox button{
+
+.heroSectionBox button {
   font-size: 20px;
   padding: 7.5px 30px;
 }
+
 /* Hero Section code */
 /* :::HEADER Code Ends here::: */
 
@@ -323,15 +328,18 @@ footer {
 .coffeeBox h2 {
   margin-bottom: 2rem;
 }
+
 .coffeeBox p {
   /* background-color: blue; */
   margin-bottom: 3rem;
 }
+
 .menuBox figure img {
   width: 100%;
   aspect-ratio: 1/1;
 }
-.coffeeBox button{
+
+.coffeeBox button {
   font-size: 20px;
   padding: 7.5px 30px;
 }
@@ -344,11 +352,12 @@ p {
   margin-top: 1rem;
   line-height: 1.5;
 }
+
 /* Our Menu code */
 
 /* Facility code */
 .restBox img {
-  width: auto;
+  width: 180px;
   height: 40px;
 }
 
@@ -459,6 +468,7 @@ span {
 /* Small devices (landscape phones, upto 576px and below) */
 
 @media (max-width: 576px) {
+
   .grid-1,
   .grid-2,
   .grid-3,
@@ -467,27 +477,138 @@ span {
     padding: 0rem 1rem;
   }
 
-  h1{
+  .nav-links li {
+    font-size: 25px;
+  }
+
+  h1 {
     font-size: 30px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .menuBox img {
+    max-width: 510px;
+    height: 510px;
+  }
+  .galleryBody img {
+    max-width: 100%;
+    height: 374px;
+  }
+
+  .teamBody img {
+    max-width: 100%;
+    height: 360px;
+  }
+
+  .tableBox img {
+    max-width: 510px;
+    height: 700px;
   }
 }
 
 /* TABLET RESPONSIVE CODE */
 @media (min-width: 577px) and (max-width: 768px) {
 
+  .grid-1,
+  .grid-2 {
+    grid-template-columns: 1fr;
+    padding: 0rem 1rem;
+  }
+
+  .grid-3,
+  .grid-4 {
+    grid-template-columns: 1fr 1fr;
+    padding: 0rem 1rem;
+  }
+
+  .nav-links li {
+    font-size: 25px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .menuBox img {
+    max-width: 690px;
+    height: 690px;
+  }
+
+  .popularBody img {
+    max-width: 255px;
+    height: 255px;
+  }
+
+  .galleryBody img {
+    max-width: 330px;
+    height: 242px;
+  }
+
+  .teamBody img {
+    max-width: 255px;
+    height: 255px;
+  }
+
+  .tableBody img {
+    max-width: 690px;
+    height: 700px;
+  }
 }
 
 /* @media (min-width: 769px) and (max-width: 992px) */
 @media (min-width:769px) and (max-width: 992px) {
- 
+  .grid-3 {
+    grid-template-columns: 1fr 1fr;
+    padding: 0rem 1rem;
+  }
+
+  .nav-links li {
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+  .menuBox img{
+    max-width:450px ;
+    height:450px ;
+  }
+  .galleryBody img{
+    max-width: 450px;
+    height: 330px;
+  }
+  .teamBody img{
+    max-width:375px ;
+    height:375px ;
+  }
+  .tableBox img{
+    max-width:450px ;
+    height:700px ;
+  }
+
 }
 
 /* @media (min-width: 993px) and (max-width: 1200px) */
-@media (min-width:993px) and (max-width:1200px) {
-
-}
+@media (min-width:993px) and (max-width:1200px) {}
 
 /* @media (min-width: 1200px)  */
-@media (width:1200px) {
-}
-
+@media (width:1200px) {}
