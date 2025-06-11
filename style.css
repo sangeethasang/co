@@ -588,21 +588,25 @@ span {
   p {
     font-size: 15px;
   }
-  .menuBox img{
-    max-width:450px ;
-    height:450px ;
+
+  .menuBox img {
+    max-width: 450px;
+    height: 450px;
   }
-  .galleryBody img{
+
+  .galleryBody img {
     max-width: 450px;
     height: 330px;
   }
-  .teamBody img{
-    max-width:375px ;
-    height:375px ;
+
+  .teamBody img {
+    max-width: 375px;
+    height: 375px;
   }
-  .tableBox img{
-    max-width:450px ;
-    height:700px ;
+
+  .tableBox img {
+    max-width: 450px;
+    height: 700px;
   }
 
 }
