@@ -488,26 +488,6 @@ span {
   p {
     font-size: 12px;
   }
-
-  .menuBox img {
-    max-width: 510px;
-    height: 510px;
-  }
-
-  .galleryBody img {
-    max-width: 100%;
-    height: 374px;
-  }
-
-  .teamBody img {
-    max-width: 100%;
-    height: 360px;
-  }
-
-  .tableBox img {
-    max-width: 510px;
-    height: 700px;
-  }
 }
 
 /* TABLET RESPONSIVE CODE */
@@ -533,30 +513,6 @@ span {
     font-size: 12px;
   }
 
-  .menuBox img {
-    max-width: 690px;
-    height: 690px;
-  }
-
-  .popularBody img {
-    max-width: 255px;
-    height: 255px;
-  }
-
-  .galleryBody img {
-    max-width: 330px;
-    height: 242px;
-  }
-
-  .teamBody img {
-    max-width: 255px;
-    height: 255px;
-  }
-
-  .tableBody img {
-    max-width: 690px;
-    height: 700px;
-  }
 }
 
 /* @media (min-width: 769px) and (max-width: 992px) */
@@ -578,25 +534,6 @@ span {
     font-size: 15px;
   }
 
-  .menuBox img {
-    max-width: 450px;
-    height: 450px;
-  }
-
-  .galleryBody img {
-    max-width: 450px;
-    height: 330px;
-  }
-
-  .teamBody img {
-    max-width: 375px;
-    height: 375px;
-  }
-
-  .tableBox img {
-    max-width: 450px;
-    height: 700px;
-  }
 
 }
 
