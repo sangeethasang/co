@@ -477,10 +477,6 @@ span {
     padding: 0rem 1rem;
   }
 
-  .nav-links li {
-    font-size: 25px;
-  }
-
   h1 {
     font-size: 30px;
   }
@@ -528,10 +524,6 @@ span {
     padding: 0rem 1rem;
   }
 
-  .nav-links li {
-    font-size: 25px;
-  }
-
   h1 {
     font-size: 30px;
   }
@@ -571,10 +563,6 @@ span {
   .grid-3 {
     grid-template-columns: 1fr 1fr;
     padding: 0rem 1rem;
-  }
-
-  .nav-links li {
-    font-size: 20px;
   }
 
   h1 {
