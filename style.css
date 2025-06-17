@@ -360,6 +360,9 @@ footer {
   font-size: 20px;
   padding: 7.5px 30px;
 }
+.coffeeBox{
+  padding: 2rem;
+}
 
 p {
   /*font-family: "Nunito",sans-serif; */
@@ -526,7 +529,6 @@ span {
 .nav-links {
   display: none;
   flex-direction: column;
-  /* padding-left: 45rem; */
   align-items: end;
 }
 .nav-links li a{
