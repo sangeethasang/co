@@ -511,7 +511,7 @@ span {
   position: absolute;
   top: 4rem;
   right: 3rem;
-  /* cursor: pointer; */
+  cursor: pointer;
 }
 .nav-links {
   display: none;
