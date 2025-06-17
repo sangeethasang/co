@@ -508,11 +508,11 @@ span {
   p {
     font-size: 12px;
   }
-  .gallery{
-    padding: 2rem;
+  .gallery img{
+    padding:0rem 2rem;
   }
-  .team{
-    padding: 10rem;
+  .team img{
+    padding: 0rem 10rem;
   }
   .tableBody img{
     max-width:100%;
