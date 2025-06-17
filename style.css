@@ -284,8 +284,6 @@ footer {
   margin-left: 5rem;
 }
 
-
-
 .nav-links li {
   font-size: 20px;
   font-weight: 400;
@@ -294,7 +292,26 @@ footer {
 }
 
 /* Navbar code */
+.textBlock #iconToggle {
+  cursor: pointer;
+}
 
+.textBlock #iconToggle {
+  display: none;
+}
+
+.textBlock .hamburgerIcon {
+  /* background-color: crimson; */
+  color: #002239;
+  font-size: 2rem;
+  border: 1.5px solid #002239;
+  padding: 0.25rem 0.75rem 0.1rem;
+  border-radius: 0.25rem;
+}
+
+.textBlock .hamburgerIcon {
+  display: none;
+}
 /* Hero Section code */
 .heroSection {
   background: linear-gradient(90deg, white, transparent 70%), url(./assets/images/home-bg.jpg);
@@ -367,7 +384,7 @@ h3 {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
 }
 
 /* Facility code */
@@ -404,7 +421,7 @@ h3 {
 /* Contact code */
 
 /* Contact Icons code */
-i {
+.scardBox i {
   font-size: 38px;
   background-color: #be9c79;
   border-radius: 100%;
@@ -488,9 +505,35 @@ span {
   p {
     font-size: 12px;
   }
-}
 
-/* TABLET RESPONSIVE CODE */
+.textBlock .hamburgerIcon {
+  display: block;
+  position: absolute;
+  top: 4rem;
+  right: 3rem;
+  /* cursor: pointer; */
+}
+.nav-links {
+  display: none;
+  flex-direction: column;
+  padding-left: 45rem;
+}
+.nav-links li a{
+  padding: 0.75rem 0rem;
+}
+#iconToggle:checked ~ .textBox .nav-links {
+  display:flex;
+}
+#iconToggle:checked ~ .nav-links li:hover{
+  background-color: #14476c;
+  cursor: pointer;
+}
+#iconToggle:checked ~ .nav-links li:hover a {
+  color: #ffffff;
+  font-weight: 500;
+}
+}
+ /* TABLET RESPONSIVE CODE  */
 @media (min-width: 577px) and (max-width: 768px) {
 
   .grid-1,
@@ -512,7 +555,6 @@ span {
   p {
     font-size: 12px;
   }
-
 }
 
 /* @media (min-width: 769px) and (max-width: 992px) */
@@ -533,7 +575,6 @@ span {
   p {
     font-size: 15px;
   }
-
 
 }
 
