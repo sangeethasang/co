@@ -516,7 +516,8 @@ span {
 .nav-links {
   display: none;
   flex-direction: column;
-  padding-left: 45rem;
+  /* padding-left: 45rem; */
+  align-items: end;
 }
 .nav-links li a{
   padding: 0.75rem 0rem;
