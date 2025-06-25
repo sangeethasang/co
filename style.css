@@ -421,29 +421,29 @@ h3 {
 
 /* :::FOOTER Code Starts here::: */
 /* Contact code */
-.guestsBox input{
+.guestsBlock input{
   padding: 1rem  20rem 1rem 2rem;
   margin-bottom: 2rem;
 }
-.guestsBox {
+.guestsBlock {
    border: 1px solid #212529;
    padding: 2rem;
 }
-.guestsBox h2{
+.guestsBlock h2{
    font-family: "'Nunito', sans-serif"; 
    font-size: 3.5rem; 
   font-weight: 500;
 }
- .guestsBox input{
+ .guestsBlock input{
   /* font-family: "'Nunito', sans-serif"; */
   border: 1px solid #212529;
   font-size: 2rem;  
 }
- .guestsBox input:focus{
+ .guestsBlock input:focus{
   border: 1px solid #40E0D0;
   outline: 3px solid #40E0D0;
 }
-.guestsBox button{
+.guestsBlock button{
   /* font-family: "'Nunito', sans-serif"; */
   font-size: 2rem; 
   padding: 7.5px 30px;
