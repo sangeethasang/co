@@ -58,7 +58,7 @@ button {
   border: none;
   /*border-radius: 0.5rem; */
   padding: 1rem 3rem;
-  font-size: 20px;
+  font-size: 2rem;
   transition: background-color 0.2s ease;
 }
 
@@ -74,14 +74,14 @@ button:hover {
 ::-webkit-scrollbar {
   width: 1.5rem;
   /* Vertical scrollbar */
-  height: 10px;
+  height: 1rem;
   /* Horizontal scrollbar */
 }
 
 /* Track (background of the scrollbar) */
 ::-webkit-scrollbar-track {
   background: #e3e4e6;
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 
 /* Scrollbar thumb (the draggable part) */
@@ -150,7 +150,7 @@ a {
 }
 
 .screenSize {
-  max-width: 1200px;
+  max-width: 120rem;
   /* Device Screen Size */
   margin: auto;
   /* Left and right Center */
@@ -280,15 +280,15 @@ footer {
 /* Navbar code */
 .iconBox img {
   width: auto;
-  height: 50px;
+  height: 5rem;
   margin-left: 5rem;
 }
 
 .nav-links li {
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 400;
   line-height: 1.5;
-  padding: 5px 5px;
+  padding: 0.5rem 0.5rem;
 }
 
 /* Navbar code */
@@ -300,11 +300,11 @@ footer {
   display: none;
 }
 
-.textBlock .hamburgerIcon {
+ .hamburgerIcon {
   /* background-color: crimson; */
   color: #002239;
   font-size: 2rem;
-  border: 1.5px solid #002239;
+  border: 0.15rem solid #002239;
   padding: 0.25rem 0.75rem 0.1rem;
   border-radius: 0.25rem;
 }
@@ -333,8 +333,8 @@ footer {
 }
 
 .heroSectionBox button {
-  font-size: 20px;
-  padding: 7.5px 30px;
+  font-size: 2rem;
+  padding: 0.75rem 3rem;
 }
 
 /* Hero Section code */
@@ -357,8 +357,8 @@ footer {
 }
 
 .coffeeBox button {
-  font-size: 20px;
-  padding: 7.5px 30px;
+  font-size: 2rem;
+  padding: 0.75rem 3rem;
 }
 .coffeeBox{
   padding: 2rem;
@@ -367,7 +367,7 @@ footer {
 p {
   /*font-family: "Nunito",sans-serif; */
   color: #212529;
-  font-size: 15px;
+  font-size: 1.5rem;
   font-weight: 400;
   margin-top: 1rem;
   line-height: 1.5;
@@ -384,7 +384,7 @@ p {
 h3 {
   font-family: "Nunito sans", sans-serif;
   color: #212529;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 500;
   line-height: 1.2;
   /* margin-top: 1rem; */
@@ -421,17 +421,44 @@ h3 {
 
 /* :::FOOTER Code Starts here::: */
 /* Contact code */
-/* Contact code */
+.guestsBox input{
+  padding: 1rem  20rem 1rem 2rem;
+  margin-bottom: 2rem;
+}
+.guestsBox {
+   border: 1px solid #212529;
+   padding: 2rem;
+}
+.guestsBox h2{
+   font-family: "'Nunito', sans-serif"; 
+   font-size: 3.5rem; 
+  font-weight: 500;
+}
+ .guestsBox input{
+  /* font-family: "'Nunito', sans-serif"; */
+  border: 1px solid #212529;
+  font-size: 2rem;  
+}
+ .guestsBox input:focus{
+  border: 1px solid #40E0D0;
+  outline: 3px solid #40E0D0;
+}
+.guestsBox button{
+  /* font-family: "'Nunito', sans-serif"; */
+  font-size: 2rem; 
+  padding: 7.5px 30px;
 
+}
+/* Contact code */
 /* Contact Icons code */
 .scardBox i {
-  font-size: 38px;
+  font-size: 3.8rem;
   background-color: #be9c79;
   border-radius: 100%;
-  padding: 15px;
+  padding: 1.5rem;
   color: #ffffff;
-  height: 70px;
-  width: 70px;
+  height: 7rem;
+  width: 7rem;
 }
 
 .copyBody {
@@ -453,7 +480,7 @@ h3 {
 .scardBox p {
   font-family: "Nunito sans", sans-serif;
   color: #212529;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 400;
   line-height: 1.2;
   margin-top: 1rem;
@@ -464,14 +491,14 @@ span {
 }
 
 .copyRightBody {
-  border-top: 2px solid #333333;
-  font-size: 20px;
+  border-top: 0.2rem solid #333333;
+  font-size: 2rem;
 }
 
 .copyRightBox p {
   font-family: "Nunito sans", sans-serif;
   color: #212529;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 400;
   line-height: 1.2;
   margin-top: 1rem;
@@ -498,15 +525,15 @@ span {
   }
 
   h1 {
-    font-size: 30px;
+    font-size: 3rem;
   }
 
   h2 {
-    font-size: 40px;
+    font-size: 4rem;
   }
 
   p {
-    font-size: 12px;
+    font-size: 1.6rem;
   }
   .gallery {
     padding: 0rem 2rem;
@@ -516,10 +543,13 @@ span {
   }
   .tableBody img{
     max-width:100%;
-    height: 700px;
+    height: 70rem;
   }
-
-.textBlock .hamburgerIcon {
+  .guestsBox{
+    width: auto;
+    /* height: 408px; */
+  }
+  .textBlock .hamburgerIcon {
   display: block;
   position: absolute;
   top: 4rem;
@@ -537,14 +567,17 @@ span {
 #iconToggle:checked ~ .textBox .nav-links {
   display:flex;
 }
-#iconToggle:checked ~ .nav-links li:hover{
+
+
+
+/* #iconToggle:checked ~ .nav-links li:hover{
   background-color: #14476c;
   cursor: pointer;
 }
 #iconToggle:checked ~ .nav-links li:hover a {
   color: #ffffff;
   font-weight: 500;
-}
+} */
 }
  /* TABLET RESPONSIVE CODE  */
 @media (min-width: 577px) and (max-width: 768px) {
@@ -562,12 +595,44 @@ span {
   }
 
   h1 {
-    font-size: 30px;
+    font-size: 3rem;
   }
 
   p {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
+  .gallery {
+    padding: 0rem 2rem;
+  }
+  .team {
+    padding: 0rem 10rem;
+  }
+  .tableBody img{
+    max-width:100%;
+    height: 70rem;
+  }
+  .guestsBox{
+    width: auto;
+    height: 408px;
+  }
+  .textBlock .hamburgerIcon {
+  display: block;
+  position: absolute;
+  top: 4rem;
+  right: 3rem;
+  cursor: pointer;
+}
+.nav-links {
+  display: none;
+  flex-direction: column;
+  align-items: end;
+}
+.nav-links li a{
+  padding: 0.75rem 0rem;
+}
+#iconToggle:checked ~ .textBox .nav-links {
+  display:flex;
+}
 }
 
 /* @media (min-width: 769px) and (max-width: 992px) */
@@ -578,15 +643,25 @@ span {
   }
 
   h1 {
-    font-size: 50px;
+    font-size: 5rem;
   }
 
   h2 {
-    font-size: 40px;
+    font-size: 4rem;
   }
 
   p {
-    font-size: 15px;
+    font-size: 1.5rem;
+  }
+  .gallery {
+    padding: 0rem 2rem;
+  }
+  .team {
+    padding: 0rem 10rem;
+  }
+  .tableBody img{
+    max-width:100%;
+    height: 70rem;
   }
 
 }
@@ -595,4 +670,3 @@ span {
 @media (min-width:993px) and (max-width:1200px) {}
 
 /* @media (min-width: 1200px)  */
-@media (width:1200px) {}
